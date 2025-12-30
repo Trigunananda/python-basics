@@ -24,8 +24,9 @@ print(blue)
 # print(colors)
 
 # Unpacking and packing
-colors = ['red', 'blue', 'green']
-red,blue,*other = colors
-print(red)
-print(blue)
+colors = ['cyan', 'magenta', 'yellow', 'black']
+cyan, magenta, *other = colors
+
+print(cyan)
+print(magenta)
 print(other)
